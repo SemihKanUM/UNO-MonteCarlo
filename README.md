@@ -30,7 +30,7 @@ It includes **Random bots**, **Monte Carlo Tree Search (MCTS)** bots, and experi
 ---
 
 ### 🔹More Improved with AI Guess of the opponents hand Monte Carlo Tree Search Win Rate
-![MCTS Performance](withKnn2.png)
+![MCTS Performance](improvedGuess.png)
 
 ---
 
