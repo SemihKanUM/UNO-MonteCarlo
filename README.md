@@ -19,9 +19,9 @@ It includes **Random bots**, **Monte Carlo Tree Search (MCTS)** bots, and experi
 
 ## 📊 Results & Visualizations
 
-### 🔹 Distribution of Turn Number
+### 🔹 First and initial version of Monte Carlo bot against bot with heurestic 
 Shows how many turns UNO games typically take.  
-![Distribution of Turns](DisTurnRandomBot.png)
+![Initial Version](firstVersion.png)
 
 ---
 
