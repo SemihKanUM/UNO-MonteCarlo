@@ -49,7 +49,7 @@ It includes **Random bots**, **Monte Carlo Tree Search (MCTS)** bots, and experi
 
 ## 🚀 Getting Started
 
-### Run the UNO Game
+### Run the UNO Game ...
 ```bash
 # Compile and run the Java project
 javac *.java
