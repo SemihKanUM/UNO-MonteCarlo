@@ -3,41 +3,44 @@
 This project implements the popular **UNO card game** with a **Graphical User Interface (GUI)** and extends it with multiple **AI agents** for automated gameplay.  
 It includes **Random bots**, **Monte Carlo Tree Search (MCTS)** bots, and experimental **Reinforcement Learning (RL)** agents to analyze strategies and performance.  
 
+Our best **Monte Carlo Tree Search bot** for UNO achieves a **0.63 higher win rate** against a heuristic-based bot.  
+For comparison, the best results reported online were around **0.57**, so this is a **significant improvement** in a game with strong elements of chance.  
+
 ---
 
 ## 🏗️ Features
 - Full **UNO game with GUI**  
-- **AI agents** implemented:
-  - RandomBot (baseline)  
-  - MonteCarloBot (simulation-based)  
-  - MCTSBot & MCTSRandomBot (Monte Carlo Tree Search)  
+- Multiple **AI agents**:
+  - `RandomBot` (baseline)  
+  - `MonteCarloBot` (simulation-based)  
+  - `MCTSBot` & `MCTSRandomBot` (Monte Carlo Tree Search variants)  
   - Reinforcement Learning prototype (Python)  
-- Simulation environment to evaluate bots over thousands of games  
-- Visualization of **win rate** and **game length distributions**  
+- Simulation environment for large-scale bot evaluation  
+- Visualization of **win rates** and **game length distributions**  
 
 ---
 
 ## 📊 Results & Visualizations
 
-### 🔹 First and initial version of Monte Carlo bot against bot with heuristic 
+### 🔹 Initial Monte Carlo Bot vs. Heuristic Bot
 ![Initial Version](firstVersion.png)
 
 ---
 
-### 🔹 Win Rate Comparison (Random Bot vs Monte Carlo Bot Improved)
+### 🔹 Win Rate Comparison: Random Bot vs. Improved Monte Carlo Bot
 ![Win Rate Random](withKnn.png)
 
 ---
 
-### 🔹More Improved with AI Guess of the opponents hand Monte Carlo Tree Search Win Rate
+### 🔹 Further Improved: MCTS with Opponent Hand Estimation
 ![MCTS Performance](improvedGuess.png)
 
 ---
 
 ## ⚙️ Tech Stack
-- **Java** – Core UNO game logic & GUI, AI agents (Random, Monte Carlo, MCTS)  
+- **Java** – Core UNO game logic, GUI, AI agents (Random, Monte Carlo, MCTS)  
 - **Python** – Reinforcement Learning experiments  
-- **Matplotlib / Numpy** – Simulation results visualization  
+- **Matplotlib / NumPy** – Results visualization  
 
 ---
 
@@ -45,6 +48,6 @@ It includes **Random bots**, **Monte Carlo Tree Search (MCTS)** bots, and experi
 
 ### Run the UNO Game
 ```bash
-# Compile and run Java project
+# Compile and run the Java project
 javac *.java
 java Main
