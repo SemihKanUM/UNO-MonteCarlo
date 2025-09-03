@@ -19,19 +19,18 @@ It includes **Random bots**, **Monte Carlo Tree Search (MCTS)** bots, and experi
 
 ## 📊 Results & Visualizations
 
-### 🔹 First and initial version of Monte Carlo bot against bot with heurestic 
-Shows how many turns UNO games typically take.  
+### 🔹 First and initial version of Monte Carlo bot against bot with heuristic 
 ![Initial Version](firstVersion.png)
 
 ---
 
-### 🔹 Win Rate Comparison (Random Bot vs Monte Carlo Bot)
-![Win Rate Random](WinRateRandom.png)
+### 🔹 Win Rate Comparison (Random Bot vs Monte Carlo Bot Improved)
+![Win Rate Random](withKnn.png)
 
 ---
 
-### 🔹 Monte Carlo Tree Search Win Rate
-![MCTS Performance](MTWinRate.png)
+### 🔹More Improved with AI Guess of the opponents hand Monte Carlo Tree Search Win Rate
+![MCTS Performance](withKnn2.png)
 
 ---
 
