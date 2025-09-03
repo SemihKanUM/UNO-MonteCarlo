@@ -3,8 +3,8 @@
 This project implements the popular **UNO card game** with a **Graphical User Interface (GUI)** and extends it with multiple **AI agents** for automated gameplay.  
 It includes **Random bots**, **Monte Carlo Tree Search (MCTS)** bots, and experimental **Reinforcement Learning (RL)** agents to analyze strategies and performance.  
 
-Our best **Monte Carlo Tree Search bot** for UNO achieves a **0.63 higher win rate** against a heuristic-based bot.  
-For comparison, the best results reported online were around **0.57**, so this is a **significant improvement** in a game with strong elements of chance.  
+**Our best **Monte Carlo Tree Search bot** for UNO achieves a **0.63 higher win rate** against a heuristic-based bot.  
+For comparison, the best results reported online were around **0.57**, so this is a **significant improvement** in a game with strong elements of chance.**  
 
 ---
 
